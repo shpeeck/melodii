@@ -58,3 +58,7 @@ button > .navbar-toggler-icon {
         padding-left: 30px;
     }
 }
+
+.none {
+    display: none;
+}
