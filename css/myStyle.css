@@ -129,6 +129,8 @@ button > .navbar-toggler-icon {
     top: 31px;
     left: 31px;
     cursor: pointer;
+    width: 50px;
+    height: auto;
 }
 
 .position__close:hover {
