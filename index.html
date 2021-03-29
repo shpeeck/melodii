@@ -372,11 +372,16 @@
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
     <script src="js/jquery.jscroll.min.js"></script>
     <script type="text/javascript">
-        $(window).on('touchmove', function () {
+        $(document.body).on('touchmove', function () {
             $('.scroll').jscroll();
         });
+        let options = {
+            loadingHtml: '<img src="img/logo-min.png" alt="Loading" /> Loading...',
+            padding: 20,
+            autoTrigger: false
+        };
         $(document).ready(function () {
-            $('.scroll').jscroll();
+            $('.scroll').jscroll(options);
         });
     </script>
 
