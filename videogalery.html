@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <!-- Required meta tags -->
@@ -132,7 +132,7 @@
                     <!-- Grid column -->
                 </div><!-- row -->
                 <!-- nev -->
-                
+
             </div><!-- col -->
         </div><!-- row -->
 
@@ -3180,6 +3180,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+<!-- new -->
+        <script src="js/jquery.jscroll.min.js"></script>
+    <script type="text/javascript">
+        $(document.body).on('touchmove', function () {
+            $('.scroll').jscroll();
+        });
+        let options = {
+            loadingHtml: '<img src="img/logo-min.png" alt="Loading" /><br>...',
+            padding: 50,
+            //autoTrigger: false
+        };
+        $(document).ready(function () {
+            $('.scroll').jscroll(options);
+        });
+    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

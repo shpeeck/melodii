@@ -25,6 +25,7 @@ body > nav > a > img {
     font-weight: bold;
     font-family: "Arial", "Verdana";
 }
+
 a.nav-link {
     color: #ffffff !important;
 }
@@ -37,6 +38,7 @@ li.nav-item {
     margin-right: auto;
     /* padding-left: 30px; */
 }
+
 button > .navbar-toggler-icon {
     width: 70px;
     height: 70px !important;
@@ -121,7 +123,7 @@ button > .navbar-toggler-icon {
 
 .position__body iframe {
     width: 800px;
-    height: 800px;
+    height: 90vh;
 }
 
 .position__close {
@@ -153,11 +155,18 @@ button > .navbar-toggler-icon {
     transition: all 0.8s ease-in-out;
 }
 
-.slider5, .slider4, .slider3, .slider2, .slider1, .slider-family, .slider0, .slider {
+.slider5,
+.slider4,
+.slider3,
+.slider2,
+.slider1,
+.slider-family,
+.slider0,
+.slider {
     max-width: 95%;
     max-height: 800px;
 }
-.sert img{
+.sert img {
     max-width: 70%;
     max-height: 800px;
 }
