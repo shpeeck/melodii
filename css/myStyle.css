@@ -93,7 +93,7 @@ button > .navbar-toggler-icon {
 } */
 .swiper-slide img {
     max-width: 100%;
-    height: auto;
+    max-height: 90vh;
 }
 /* @media(max-width: 600px) {
     .swiper-slide img {
