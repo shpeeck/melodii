@@ -8,6 +8,7 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
 
         // If we need pagination
         pagination: {
@@ -38,6 +39,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -68,6 +71,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -98,6 +103,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -128,6 +135,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -158,6 +167,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -188,6 +199,8 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
 
         // If we need pagination
         pagination: {
@@ -218,6 +231,9 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
+
+
 
         // If we need pagination
         pagination: {
@@ -249,6 +265,7 @@ try {
         autoplay: {
             delay: 5000,
         },
+        runCallbacksOnInit: true,
 
         // If we need pagination
         pagination: {
@@ -274,7 +291,7 @@ try {
 
 
   // Открытие модалки формы 
-  try {
+try {
     let mod = document.querySelector(".position");
     let op = document.querySelector(".add");
     let close = document.querySelector(".position__close");
