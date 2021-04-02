@@ -1,7 +1,7 @@
 
 // swiper sertificats
 try {
-    const swiper = new Swiper('.sert', {
+    const swiperSert = new Swiper('.sert', {
         // Optional parameters
         loop: true,
         speed: 300,
@@ -36,9 +36,9 @@ try {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -64,13 +64,13 @@ try {
 
 // swiper slider 0
 try {
-    const swiper = new Swiper('.slider0', {
+    const swiper0 = new Swiper('.slider0', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -96,13 +96,13 @@ try {
 
 // swiper slider-family
 try {
-    const swiper = new Swiper('.slider-family', {
+    const swiperFamily = new Swiper('.slider-family', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -128,13 +128,13 @@ try {
 
 // swiper 1
 try {
-    const swiper = new Swiper('.slider1', {
+    const swiper1 = new Swiper('.slider1', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -160,13 +160,13 @@ try {
 
 // swiper 2
 try {
-    const swiper = new Swiper('.slider2', {
+    const swiper2 = new Swiper('.slider2', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -192,13 +192,13 @@ try {
 
 // swiper 3
 try {
-    const swiper = new Swiper('.slider3', {
+    const swiper3 = new Swiper('.slider3', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -224,13 +224,13 @@ try {
 
 // swiper 4
 try {
-    const swiper = new Swiper('.slider4', {
+    const swiper4 = new Swiper('.slider4', {
         // Optional parameters
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
 
@@ -257,14 +257,14 @@ try {
 
 // swiper 5
 try {
-    const swiper = new Swiper('.slider5', {
+    const swiper5 = new Swiper('.slider5', {
         // Optional parameters
         //width: 1200,
         loop: true,
         speed: 300,
-        autoplay: {
-            delay: 5000,
-        },
+        // autoplay: {
+        //     delay: 5000,
+        // },
         runCallbacksOnInit: true,
 
         // If we need pagination

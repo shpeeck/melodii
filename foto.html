@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="http://charivnimelodii.com/css/myStyle.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/myStyle.css">
 
 
@@ -42,8 +43,40 @@
                 <li class="nav-item">
                     <a class="nav-link" href="journal.html">Журнал</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://46.46.105.121/" target="_self">Фото</a>
+                <li class="nav-item dropdown">
+                    <a id="dLabel" role="button" data-toggle="dropdown" class="nav-link" data-target="#" href="#">
+                        Фото<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-menu--link"><a href="galery-pages/family2019.html">Family DAY 11.05.2019</a></li>
+                        <li class="dropdown-submenu dropdown-menu--link">
+                            <a tabindex="-1" href="galery-pages/fest1.html">І фестиваль 2018</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="galery-pages/fest1-vocal.html">Вокал</a></li>
+                                    <li><a href="galery-pages/fest1-obrazotvorche.html">Образотворче</a></li>
+                                    <li><a href="galery-pages/fest1-instrumental.html">Інструментал</a></li>
+                                    <li><a href="galery-pages/fest1-fotozona.html">Фото-зона</a></li>
+                                </ul>
+                        </li>
+                        <li class="dropdown-submenu dropdown-menu--link">
+                            <a tabindex="-1"  href="galery-pages/fest2.html">ІІ фестиваль 2019</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="galery-pages/fest2-day1.html">День перший</a></li>
+                                <li><a href="galery-pages/fest2-day2.html">День другий</a></li>
+                                <li><a href="galery-pages/fest2-obrazotvorche.html">Образотворче</a></li>
+                                <li><a href="galery-pages/fest2-galaconcert.html">Гала-концерт</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu dropdown-menu--link">
+                            <a tabindex="-1"  href="galery-pages/fest3.html">ІІІ фестиваль 2019</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="galery-pages/fest3-day1.html">День перший</a></li>
+                                <li><a href="galery-pages/fest3-day2.html">День другий</a></li>
+                                <li><a href="galery-pages/fest3-day3.html">День третій</a></li>
+                                <li><a href="galery-pages/fest3-obrazotvorche.html">Образотворче</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="videogalery.html">Видео</a>
@@ -51,9 +84,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="zvyazok.html">Зв'язок</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="chat.html">Чат</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="reg.html">Реєстрація</a>
                 </li>
@@ -69,8 +102,50 @@
                 <div class="line">
                     <h2>Фото</h2>
                 </div>
+
+                <h3>Оберіть категорію</h3>
                 <br>
-                <div class="pol">
+                <div class="container">
+                    <div class="rov">
+                        <div class="col">
+                            <div class="mygallery__menu">
+                                <ul class="mygallery__menu-list">
+                                    <li class="mygallery__menu-item">
+                                        <a href="" class="mygallery__menu-link">Family day 11.05.2019</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="mygallery">
+                                <div class="mygallery__wrapper">
+                                    <div class="mygallery__images">
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                        <a data-fancybox="gallery"
+                                            href="http://46.46.105.121/eventgallery/familyday/photo.jpg"><img
+                                                src="http://46.46.105.121/eventgallery/familyday/photo.jpg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="pol">
                     <img src="http://charivnimelodii.com/images/fotofon.jpg" alt="" width=70%>
                 </div>
                 <br>
@@ -81,7 +156,7 @@
                 <br>
                 <p>Доступ до фотографій можливий через <a href="http://charivnimelodii.com/reg.html">"Реєстрацію"</a>.
                     <br> На вказану Вами поштову адресу буде надіслане посилання.
-                </p>
+                </p> -->
                 <br>
                 <br>
                 <br>
@@ -114,6 +189,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
