@@ -1,4 +1,35 @@
 
+// swiper jury
+try {
+    const swiperJury = new Swiper('.jury', {
+        // Optional parameters
+        loop: true,
+        speed: 300,
+        autoplay: {
+            delay: 5000,
+        },
+        runCallbacksOnInit: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+} catch (error) {
+    
+}
+
 // swiper sertificats
 try {
     const swiperSert = new Swiper('.sert', {
