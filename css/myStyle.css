@@ -208,7 +208,7 @@ button > .navbar-toggler-icon {
     align-items: center;
 }
 .mygallery__images a:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .mygallery__images img {
     max-width: 200px;
@@ -292,19 +292,19 @@ button > .navbar-toggler-icon {
     display: flex;
     justify-content: center;
 }
-.foto__menu-flex a{
+.foto__menu-flex a {
     margin: 0 20px;
     padding: 5px 10px;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
 @media (max-width: 1040px) {
-    .foto__menu-flex a{
+    .foto__menu-flex a {
         margin: 0 0;
     }
 }
 @media (max-width: 800px) {
-    .foto__menu-flex{
+    .foto__menu-flex {
         flex-direction: column;
     }
 }
@@ -313,4 +313,35 @@ button > .navbar-toggler-icon {
     transition: all 0.2s ease-in-out;
     color: white;
     text-decoration: none;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    z-index: 1001;
+    -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+    -moz-animation: fade-in 1s linear; /* Fx 5+ */
+    -o-animation: fade-in 1s linear; /* Opera 12+ */
+    animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+}
+.socials svg {
+    width: 50px;
+    height: auto;
+    fill: white;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+.socials svg:hover {
+    fill: #663366;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+@media (max-width: 576px) {
+    .socials svg {
+        width: 100px;
+        margin-right: 15px;
+    }
 }
