@@ -1,6 +1,24 @@
 body {
     font-size: 18px;
 }
+.mybutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 400px;
+    height: 100px;
+    background: rgb(80, 40, 100);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.75rem;
+}
+.mybutton:hover{
+    text-decoration: none;
+    filter: brightness(150%);
+    color: rgb(255, 255, 255);
+}
 .navbar .navbar-toggler-icon {
     opacity: 1;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
