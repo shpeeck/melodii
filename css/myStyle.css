@@ -109,6 +109,9 @@ button > .navbar-toggler-icon {
     height: 800px;
     width: 500px;
 } */
+.swiper-container {
+    overflow: hidden;
+}
 .swiper-slide img {
     max-width: 100%;
     max-height: 90vh;
