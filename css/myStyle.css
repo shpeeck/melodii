@@ -170,6 +170,10 @@ button > .navbar-toggler-icon {
     }
 }
 
+
+
+
+
 .active {
     opacity: 1;
     z-index: 1001;
@@ -371,4 +375,34 @@ button > .navbar-toggler-icon {
     .nav-link {
         font-size: 50px;
     }
+}
+
+
+
+.register-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.register-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(80, 40, 100);
+    border: 3px solid rgb(61, 33, 77);
+    border-radius: 20px;
+    margin: 30px auto;
+    color: white;
+}
+
+.register-button:hover{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(61, 33, 77);
 }
