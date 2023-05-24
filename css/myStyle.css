@@ -406,3 +406,11 @@ button > .navbar-toggler-icon {
     text-decoration: none;
     background-color: rgb(61, 33, 77);
 }
+
+.add{
+    color: white !important;
+}
+
+.popup_image{
+    height: 90vh;
+}
